@@ -29,7 +29,7 @@ export default function Navbar({ onOpenNav }: INavbarProp) {
       <div className="mx-auto flex h-full w-[90%] items-center justify-between xl:w-[80%]">
         {/* LOGO */}
         {/* <Image src='/images/logo.png' width={120} height={120} alt="Logo" /> */}
-        <h1 className="py-4 text-3xl font-bold uppercase text-white">
+        <h1 className="py-4 text-xl font-bold uppercase text-white">
           Okorie F.
           <br /> Ijeoma
         </h1>
