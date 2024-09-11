@@ -17,7 +17,7 @@ export default function SliderCard({ image, name, role }: ISliderCardProp) {
       </div>
       <div className="mb-7 mt-6">
         <div className="flex items-center">
-          // eslint-disable-next-line @typescript-eslint/no-unused-vars
+          {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
           {Array.from({ length: 5 }, (i: number, _) => (
             <FaStar
               key={i}

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
 import Tilt from "react-parallax-tilt";
@@ -23,7 +22,7 @@ export default function CourseCard({ course }: ICourse) {
         <div className="p-4">
           {/* Price */}
           <h1 className="relative z-[10] ml-auto mt-[-4rem] flex h-20 w-20 flex-col items-center justify-center rounded-full bg-rose-700 text-lg font-bold text-white">
-            &#8358;{course.price}
+            {/* &#8358;{course.price} */}${course.price}/hr
           </h1>
           {/* Details */}
           <div className="mt-6 flex items-center space-x-4">
@@ -37,7 +36,7 @@ export default function CourseCard({ course }: ICourse) {
           {/* Reviews */}
           <div className="mt-2 flex items-center space-x-2">
             <div className="flex items-center">
-              // eslint-disable-next-line @typescript-eslint/no-unused-vars
+              {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
               {Array.from({ length: 5 }, (i: number, _) => (
                 <FaStar key={i} className="h-4 w-4 text-yellow-600" />
               ))}
@@ -52,13 +51,13 @@ export default function CourseCard({ course }: ICourse) {
             <div className="flex items-center space-x-2">
               <FaFile className="h-4 w-4 text-orange-600" />
               <p className="text-base font-semibold text-gray-800">
-                {course.lessons} Lessons
+                {course.lessons} Jobs
               </p>
             </div>
             <div className="flex items-center space-x-2">
               <FaUserGroup className="h-4 w-4 text-orange-600" />
               <p className="text-base font-semibold text-gray-800">
-                {course.students} Students
+                {course.students} Clients
               </p>
             </div>
           </div>
