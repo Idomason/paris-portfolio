@@ -1,3 +1,9 @@
+import Home from '@/components/home/home';
+
 export default function Homepage() {
-  return <div className='text-6xl text-rose-600'>Homepage</div>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }

@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .nav__link {
+    @apply relative block w-fit font-semibold text-white after:absolute after:block after:h-[3px] after:w-full after:origin-right after:scale-x-0 after:bg-yellow-400 after:transition after:duration-300 after:content-[''] after:hover:scale-x-100;
+  }
+
+  .button {
+    @apply rounded-lg px-6 py-1.5 text-sm font-semibold text-white transition-all duration-200 md:px-12 md:py-2.5 md:text-lg;
+  }
+
+  .footer__heading {
+    @apply mb-4 text-lg font-bold text-white;
+  }
+
+  .footer__link {
+    @apply mb-3 w-fit cursor-pointer text-sm text-white/60 hover:text-green-700;
+  }
+}
