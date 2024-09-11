@@ -1,6 +1,10 @@
 export default function HeroText() {
   return (
     <div>
+      {/* Name */}
+      <p className="xl:leading-4rem my-5 text-xl font-light text-white/70 md:leading-[3rem] lg:leading-[3.5rem] xl:text-2xl">
+        Hi dear! <br /> I am Okorie Favour Ijeoma
+      </p>
       {/* Title */}
       <h1 className="xl:leading-4rem text-3xl font-bold text-white sm:text-4xl md:text-5xl md:leading-[3rem] lg:text-6xl lg:leading-[3.5rem] xl:text-7xl">
         Professional Virtual Assistant.

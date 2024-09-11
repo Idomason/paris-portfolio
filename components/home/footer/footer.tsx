@@ -1,5 +1,11 @@
 // import Image from "next/image";
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -13,14 +19,15 @@ export default function Footer() {
           </h1>
           {/* <Image src="/images/logo.png" width={100} height={100} alt="Logo" /> */}
           <p className="text-white/50">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, ab!
+            I am professional virtual assistant with 3 years of industry
+            experience.
           </p>
           {/* Socials */}
           <div className="mt-6 flex items-center space-x-4">
             <FaFacebookF className="h-6 w-6 cursor-pointer text-blue-600" />
             <FaTwitter className="h-6 w-6 cursor-pointer text-sky-500" />
-            <FaYoutube className="h-6 w-6 cursor-pointer text-red-700" />
             <FaInstagram className="h-6 w-6 cursor-pointer text-pink-800" />
+            <FaLinkedin className="h-6 w-6 cursor-pointer text-sky-500" />
           </div>
         </div>
         {/* Second Footer Section */}
