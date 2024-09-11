@@ -23,7 +23,7 @@ export default function Review() {
           {/* Details */}
           <p className="mt-6 text-base text-white/50">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro hic
-            similique eligendi autem nulla aperiam ducimus. Consequuntur.
+            Consequuntur.
           </p>
           <div className="mt-8 flex items-center space-x-10">
             <p className="text-5xl font-bold text-white">99%</p>
