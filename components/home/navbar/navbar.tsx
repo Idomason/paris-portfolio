@@ -39,7 +39,7 @@ export default function Navbar({ onOpenNav }: INavbarProp) {
             navLinks.length > 0 &&
             navLinks.map((link) => (
               <li key={link.id}>
-                <Link className="nav__link" href={link.url}>
+                <Link className="nav__link capitalize" href={link.url}>
                   {link.label}
                 </Link>
               </li>
