@@ -27,8 +27,7 @@ export default function SliderCard({ image, name, role }: ISliderCardProp) {
         </div>
         <p className="mt-6 w-[95%] text-xs font-semibold text-gray-800/65 md:w-4/5 md:text-sm lg:text-base">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-          porro consectetur, quidem neque eaque perferendis ut vitae earum
-          consequuntur delectus eligendi. Cumque voluptatum omnis quo?
+          porro consectetur, earum consequuntur delectus eligendi.
         </p>
         <div className="mt-7">
           <h1 className="text-xl font-semibold text-black">{name}</h1>
