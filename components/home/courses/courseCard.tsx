@@ -37,6 +37,7 @@ export default function CourseCard({ course }: ICourse) {
           {/* Reviews */}
           <div className="mt-2 flex items-center space-x-2">
             <div className="flex items-center">
+              {/* // @ts-expect-error underscore */}
               {Array.from({ length: 5 }, (i: number, _) => (
                 <FaStar key={i} className="h-4 w-4 text-yellow-600" />
               ))}
