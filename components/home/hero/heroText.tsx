@@ -6,7 +6,7 @@ export default function HeroText() {
         Hi dear! <br /> I am Okorie Favour Ijeoma
       </p>
       {/* Title */}
-      <h1 className="xl:leading-4rem text-3xl font-bold text-white sm:text-4xl md:text-5xl md:leading-[3rem] lg:text-6xl lg:leading-[3.5rem] xl:text-7xl">
+      <h1 className="xl:leading-4rem text-2xl font-bold text-white sm:text-3xl md:text-4xl md:leading-[3rem] lg:text-5xl lg:leading-[3.5rem] xl:text-6xl">
         Professional Virtual Assistant.
       </h1>
 
